@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@aws-sdk/client-dynamodb': ^3.42.0
   '@aws-sdk/credential-providers': ^3.42.0
+  '@tailwindcss/aspect-ratio': ^0.3.0
   '@typescript-eslint/eslint-plugin': ^4.18.0
   '@typescript-eslint/parser': ^4.18.0
   '@vue/cli-plugin-babel': ~4.5.0
@@ -26,6 +27,7 @@ specifiers:
 dependencies:
   '@aws-sdk/client-dynamodb': 3.42.0
   '@aws-sdk/credential-providers': 3.42.0
+  '@tailwindcss/aspect-ratio': 0.3.0
   core-js: 3.19.1
   vue: 3.2.22
   vue-router: 4.0.12_vue@3.2.22
@@ -1982,6 +1984,12 @@ packages:
   /@soda/get-current-script/1.0.2:
     resolution: {integrity: sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==}
     dev: true
+
+  /@tailwindcss/aspect-ratio/0.3.0:
+    resolution: {integrity: sha512-DMgWskNJR6FNPLbQ8Xoq/PKV/9DfNKh5dvKB+SM8x7lVl4+pnxlZ3Ns4+yGmurA/ze708HrnCG1tXk85HolJmw==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
+    dev: false
 
   /@types/body-parser/1.19.2:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
